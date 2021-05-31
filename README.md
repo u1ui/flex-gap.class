@@ -1,7 +1,7 @@
 # flex-gap.class
 
-flex-gap class to allow gaps in flex-boxes
-Needed by safari
+`u1-flex-gap` class to allow gaps in flex-boxes.  
+Needed by safari.
 
 # Ussage
 
@@ -14,5 +14,4 @@ Needed by safari
   <li>second  
   <li>last
 </u1>
-
 ```
