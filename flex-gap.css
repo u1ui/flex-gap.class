@@ -1,0 +1,18 @@
+.u1-flex-gap {
+    display:flex;
+    --u1-flex-gap:var(--gap);
+    --u1-flex-row-gap:var(--u1-flex-gap);
+    --u1-flex-col-gap:var(--u1-flex-gap);
+    margin:
+        calc( var(--u1-flex-row-gap) * -0.5 )
+        0
+        calc( var(--u1-flex-row-gap) * -0.5 )
+        calc( var(--u1-flex-col-gap) * -1 ); /* important? */
+}
+.u1-flex-gap > * {
+    margin:
+        calc( var(--u1-flex-row-gap) / 2 )
+        0
+        calc( var(--u1-flex-row-gap) / 2 )
+        var(--u1-flex-col-gap); /* important? */
+}
