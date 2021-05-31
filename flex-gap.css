@@ -1,5 +1,6 @@
 .u1-flex-gap {
     display:flex;
+    flex-wrap:wrap;
     --u1-flex-gap:var(--gap);
     --u1-flex-row-gap:var(--u1-flex-gap);
     --u1-flex-col-gap:var(--u1-flex-gap);
