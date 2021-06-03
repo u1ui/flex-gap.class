@@ -1,17 +1,27 @@
 # flex-gap.class
 
 `u1-flex-gap` class to allow gaps in flex-boxes.  
-Needed by safari.
+Needed because of safari.  
+
+
+- Wrap by default
+- Gaps by default (--gap ie 1rem)
+- no overflow:hidden
+- no minus margin on the right (prevent overflows)
+- add a wrapper element if you like to add margin to the container
+
 
 # Ussage
 
 
 ```html
-<link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/flex-gap/flex-gap.css" media=print>
+<link rel=stylesheet href="https://cdn.jsdelivr.net/gh/u1ui/flex-gap/flex-gap.css" media=print><!-- add verison! "/flex-gap@x.y.z" >
 
-<ul class"u1-flex-gap" style="--u1-flex-row-gap:2em; --ui-flex-col-gap:1em">
-  <li>first
-  <li>second  
-  <li>last
-</u1>
+<div style="margin:2rem">
+  <ul class=u1-flex-gap style="--u1-Row-gap:2em; --ui-Col-gap:1em">
+    <li> first
+    <li> second  
+    <li> last
+  </u1>
+<div>
 ```
