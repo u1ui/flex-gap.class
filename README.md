@@ -25,3 +25,7 @@ Needed because of safari.
   </u1>
 <div>
 ```
+
+## Demo
+https://raw.githack.com/u1ui/flex-gap.class/main/tests/test.html  
+
