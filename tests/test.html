@@ -20,27 +20,27 @@
     <h2>.u1-flex-gap (gap hack for safari)</h2>
     <ul>
         <li>Wrap by default</li>
-        <li>gaps by default (--gap ie 1rem)</li>
+        <li>gaps by default (--gap or 1rem)</li>
         <li>no overflow:hidden</li>
         <li>no minus margin on the right (prevent overflows)</li>
     </ul>
 
     <div class=wrapper>
-        <div class=u1-flex-gap style="border:1px solid #ddd;">
+        <div class=u1-flex-gap>
             <div>Item 1</div>
             <div>Item 2</div>
-            <div style="margin-left:auto">margin-left:auto, looses gap</div>
+            <div style="margin-left:auto">margin-left:auto not working</div>
         </div>
     </div>
     <div class=wrapper>
-        <div class=u1-flex-gap style="border:1px solid #ddd;">
+        <div class=u1-flex-gap>
             <div>Item 1</div>
-            <div style="margin-right:auto">margin-right:auto</div>
-            <div>gap gets not lost</div>
+            <div style="margin-right:auto">margin-right:auto working</div>
+            <div>Item 3</div>
         </div>
     </div>
     <div class=wrapper>
-        <div class=u1-flex-gap style="border:1px solid #ddd; --u1-Gap:.2em; --u1-Row-gap:.7em">
+        <div class=u1-flex-gap style=" --u1-Gap:.2em; --u1-Row-gap:.7em">
             <div>Custom</div>
             <div>row</div>
             <div>and</div>
@@ -62,7 +62,7 @@
     <style>
         .wrapper {
             border:2px solid green;
-            padding:20px;
+            padding:10px;
             margin:10px;
             overflow:auto;
             resize:horizontal
