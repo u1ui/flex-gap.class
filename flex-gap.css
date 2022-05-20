@@ -3,7 +3,7 @@
 .u1-flex-gap {
     display:flex;
     flex-wrap:wrap;
-    --u1-Gap:var(--gap, 1rem);
+    --u1-Gap:1rem;
     --u1-Row-gap:var(--u1-Gap);
     --u1-Col-gap:var(--u1-Gap);
     margin:
