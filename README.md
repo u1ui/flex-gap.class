@@ -5,7 +5,7 @@ Uses margin and negative margin needed because of safari.
 
 
 - Wrap by default
-- Gaps by default (--gap ie 1rem)
+- Gaps by default (1rem)
 - no overflow:hidden
 - no minus margin on the right (prevent overflows)
 - margins are made using !important to prevent confusion
@@ -29,4 +29,3 @@ add a wrapper element if you like to add margin to the container
 
 ## Demo
 https://raw.githack.com/u1ui/flex-gap.class/main/tests/test.html  
-
