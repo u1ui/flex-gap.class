@@ -27,6 +27,7 @@ add a wrapper element if you like to add margin to the container
 <div>
 ```
 
-## Demo
+## Demos
+https://raw.githack.com/u1ui/flex-gap.class/main/tests/minimal.html  
 https://raw.githack.com/u1ui/flex-gap.class/main/tests/test.html  
 
