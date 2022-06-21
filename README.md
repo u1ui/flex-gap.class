@@ -1,7 +1,6 @@
 # .u1-flex-gap - class
 Most wanted flexbox case (also gaps in safari)
 
-
 `u1-flex-gap` class to allow gaps in flex-boxes.
 
 ## Features
@@ -11,26 +10,6 @@ Most wanted flexbox case (also gaps in safari)
 - No overflow:hidden
 - No minus margin on the right (prevents overflows)
 - Margins are made using !important to prevent confusion
-
-## Note
-
-Uses margin and negative margin needed because of safari.  
-Top, bottom and right margins are not allowed / overwritten.
-Add a wrapper element if you like to add margin to the container
-
-```html
-<div style="margin:2rem">
-  <ul class=u1-flex-gap>
-    <li> first
-    <li> second  
-  </u1>
-<div>
-```
-
-## Demos
-
-https://raw.githack.com/u1ui/flex-gap.class/main/tests/minimal.html  
-https://raw.githack.com/u1ui/flex-gap.class/main/tests/test.html
 
 ## Ussage
 
@@ -51,10 +30,25 @@ https://raw.githack.com/u1ui/flex-gap.class/main/tests/test.html
 <link href="https://cdn.jsdelivr.net/gh/u1ui/flex-gap.class@3.0.0/flex-gap.min.css" rel=stylesheet>
 ```
 
-## Demo
+## Demos
 
-https://raw.githack.com/u1ui/flex-gap.class/main/tests/minimal.html  
-https://raw.githack.com/u1ui/flex-gap.class/main/tests/test.html  
+[minimal.html](https://raw.githack.com/u1ui/flex-gap.class/main/tests/minimal.html)  
+[test.html](https://raw.githack.com/u1ui/flex-gap.class/main/tests/test.html)  
+
+## Note
+
+Uses margin and negative margin needed because of safari.  
+Top, bottom and right margins are not allowed / overwritten.
+Add a wrapper element if you like to add margin to the container
+
+```html
+<div style="margin:2rem">
+  <ul class=u1-flex-gap>
+    <li> first
+    <li> second  
+  </u1>
+<div>
+```
 
 ## About
 
