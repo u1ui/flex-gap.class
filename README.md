@@ -24,6 +24,17 @@ Most wanted flexbox case (also gaps in safari)
 </div>
 ```
 
+```css
+.u1-flex-gap {
+    --u1-Gap:1rem;
+    --u1-Row-gap:2rem;
+}
+.u1-flex-gap > * {
+    border:1px solid;
+    padding:2rem;
+}
+```
+
 ## Install
 
 ```html
@@ -32,8 +43,8 @@ Most wanted flexbox case (also gaps in safari)
 
 ## Demos
 
-[minimal.html](https://raw.githack.com/u1ui/flex-gap.class/main/tests/minimal.html)  
-[test.html](https://raw.githack.com/u1ui/flex-gap.class/main/tests/test.html)  
+[minimal.html](http://gcdn.li/u1ui/flex-gap.class@main/tests/minimal.html)  
+[test.html](http://gcdn.li/u1ui/flex-gap.class@main/tests/test.html)  
 
 ## Note
 
