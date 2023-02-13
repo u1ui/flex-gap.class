@@ -38,7 +38,7 @@ Most wanted flexbox case (also gaps in safari)
 ## Install
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/u1ui/flex-gap.class@3.0.0/flex-gap.min.css" rel=stylesheet>
+<link href="https://cdn.jsdelivr.net/gh/u1ui/flex-gap.class@x.x.x/flex-gap.min.css" rel=stylesheet>
 ```
 
 ## Demos
