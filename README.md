@@ -1,5 +1,5 @@
 # .u1-flex-gap - class
-Most wanted flexbox case (also gaps in safari)
+(deprecated) use flex.class instead
 
 `u1-flex-gap` class to allow gaps in flex-boxes.
 
